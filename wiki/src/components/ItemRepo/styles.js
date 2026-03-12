@@ -14,13 +14,19 @@ export const ItemContainer = styled.div`
         margin-bottom: 20px;
     }
 
-    a.remove {
-        color: #FF0000;
-        margin-top: 20px;
+    a {
+        color: #FFFFFF;
+        margin: 20px 0;
     }
 
     hr {
         color: #FAFAFA60;
         margin: 20px 0;
+    }
+
+    button {
+        background-color: #FF0000;
+        color: #FFFFFF;
+        margin-top: 20px;
     }
 `
